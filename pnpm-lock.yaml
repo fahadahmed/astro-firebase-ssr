@@ -6,7 +6,9 @@ settings:
 
 importers:
 
-  .:
+  .: {}
+
+  app:
     dependencies:
       '@astrojs/node':
         specifier: ^9.1.3

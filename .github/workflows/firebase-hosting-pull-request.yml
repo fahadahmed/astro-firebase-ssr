@@ -24,3 +24,6 @@ jobs:
           projectId: astro-firebase-mvp
         env:
           FIREBASE_CLI_EXPERIMENTS: webframeworks
+    defaults:
+      run:
+        working-directory: app
